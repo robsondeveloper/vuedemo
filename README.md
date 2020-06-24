@@ -1,5 +1,9 @@
 # vuedemo
 
+## Docker
+* $ docker build -t robsondeveloper/vuedemo:1 .
+* $ docker run -it -p 8080:80 --rm --name vuedemo robsondeveloper/vuedemo:1
+
 ## Project setup
 ```
 npm install
